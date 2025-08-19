@@ -22,3 +22,7 @@ This document tracks engineering milestones, experiment logs, parameter optimiza
 - **Focus**: refactor: optimize multi-layer GRU recurrent network
 - **Technical Summary**: Stacked 2 GRU layers (256 units each) with recurrent_dropout=0.2.
 
+### Milestone Log - 2025-08-19 (10:39)
+- **Focus**: docs: document temperature sampling and entropy control
+- **Technical Summary**: Evaluated temperature=0.2 (conservative), 0.5 (balanced), 1.0 (creative).
+
