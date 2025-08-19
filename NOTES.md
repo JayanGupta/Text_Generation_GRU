@@ -26,3 +26,7 @@ This document tracks engineering milestones, experiment logs, parameter optimiza
 - **Focus**: docs: document temperature sampling and entropy control
 - **Technical Summary**: Evaluated temperature=0.2 (conservative), 0.5 (balanced), 1.0 (creative).
 
+### Milestone Log - 2025-08-19 (14:40)
+- **Focus**: docs: update character-level corpus tokenization
+- **Technical Summary**: Created char-to-index and index-to-char mappings with seq_length=40.
+
