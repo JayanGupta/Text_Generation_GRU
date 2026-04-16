@@ -1,24 +1,36 @@
-# Text Generation using Gated Recurrent Unit (GRU) Networks
+<div align="center">
+  
+  # ✍️ Text Generation using GRU Networks
 
-This project implements a text generation model using Gated Recurrent Unit (GRU) neural networks. The goal is to train a GRU-based recurrent neural network on a text corpus and generate new text sequences that resemble the style and context of the training data.
+  [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+  [![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io)
+  [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+  [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org)
 
-## Project Overview
+  *A deep learning project for generating human-like text using GRU-based recurrent neural networks.*
+</div>
 
-- **Model Used:** Gated Recurrent Unit (GRU) — a type of recurrent neural network that is efficient for sequential data like text.
-- **Task:** Character-level or word-level text generation.
-- **Dataset:** A text corpus is preprocessed, tokenized, and used to train the model.
-- **Output:** After training, the model can generate text by predicting the next character or word given a seed input.
+---
 
-## Features
+## 📖 Overview
+This project implements a **text generation model** using **Gated Recurrent Units (GRU)**, a powerful variant of recurrent neural networks designed for sequential data.  
 
-- Text preprocessing including tokenization and sequence generation.
-- Construction and training of a GRU-based neural network using frameworks like TensorFlow/Keras.
-- Text generation with temperature-based sampling for diverse output.
-- Visualization of training progress and loss.
+The model learns patterns from a text corpus and generates new sequences that mimic the style and structure of the training data.
 
-## Installation
+---
 
-Make sure you have Python 3.7+ installed. Then install the required packages:
+## 🚀 Features
+- 🔤 Text preprocessing (tokenization & sequence creation)  
+- 🤖 GRU-based neural network architecture  
+- 🎯 Character-level / word-level text generation  
+- 🌡️ Temperature-based sampling for diverse outputs  
+- 📉 Training visualization (loss curves)  
 
-```bash
-pip install numpy tensorflow matplotlib
+---
+
+## 🧠 Model Details
+- **Architecture:** GRU (Recurrent Neural Network)  
+- **Task:** Sequence prediction for text generation  
+- **Input:** Tokenized text sequences  
+- **Output:** Next character/word prediction 
